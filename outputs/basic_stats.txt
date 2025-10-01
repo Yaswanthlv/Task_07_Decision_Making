@@ -1,0 +1,23 @@
+===== DATA SHAPE =====
+Rows: 156, Columns: 9
+
+===== DTYPE SCHEMA =====
+Country or region                object
+Score                           float64
+GDP per capita                  float64
+Social support                  float64
+Healthy life expectancy         float64
+Freedom to make life choices    float64
+Generosity                      float64
+Perceptions of corruption       float64
+
+===== DESCRIPTIVE STATS (NUMERIC) =====
+            Score  GDP per capita  Social support  Healthy life expectancy  Freedom to make life choices  Generosity  Perceptions of corruption
+count  156.000000      156.000000      156.000000               156.000000                    156.000000  156.000000                 156.000000
+mean     5.407096        0.905147        1.208814                 0.725244                      0.392571    0.184846                   0.110603
+std      1.113120        0.398389        0.299191                 0.242124                      0.143289    0.095254                   0.094538
+min      2.853000        0.000000        0.000000                 0.000000                      0.000000    0.000000                   0.000000
+25%      4.544500        0.602750        1.055750                 0.547750                      0.308000    0.108750                   0.047000
+50%      5.379500        0.960000        1.271500                 0.789000                      0.417000    0.177500                   0.085500
+75%      6.184500        1.232500        1.452500                 0.881750                      0.507250    0.248250                   0.141250
+max      7.769000        1.684000        1.624000                 1.141000                      0.631000    0.566000                   0.453000

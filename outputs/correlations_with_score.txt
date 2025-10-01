@@ -1,0 +1,7 @@
+Score                           1.000000
+GDP per capita                  0.793883
+Healthy life expectancy         0.779883
+Social support                  0.777058
+Freedom to make life choices    0.566742
+Perceptions of corruption       0.385613
+Generosity                      0.075824

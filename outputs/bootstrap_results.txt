@@ -1,0 +1,5 @@
+===== BOOTSTRAP RESULTS (95% CI; N_BOOT = 5000) =====
+
+Mean(Score): 5.407  CI95=(5.235, 5.583)
+Corr(Score, GDP per capita): 0.793  CI95=(0.740, 0.841)
+MeanDiff(Top10 - Bottom20) Score: 3.828  CI95=(3.642, 4.014)

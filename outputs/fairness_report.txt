@@ -1,0 +1,22 @@
+===== FAIRNESS / SUBGROUP DISPARITY CHECKS =====
+Rows analyzed: 156
+
+-- Score by GDP per capita quartile --
+gdp_quartile  count     mean      std
+Q4 (highest)     39 6.704436 0.615902
+          Q3     38 5.604211 0.670870
+          Q2     40 5.122900 0.711980
+ Q1 (lowest)     39 4.209179 0.626201
+Mean score disparity (Q4 - Q1): 2.495
+
+-- Score by Perceptions of corruption tertile --
+corruption_tertile  count     mean      std
+ T3 (less corrupt)     51 5.883471 1.291890
+ T1 (more corrupt)     52 5.279904 0.820297
+                T2     53 5.073491 1.037481
+Mean score disparity (T3 - T1): 0.810
+
+Notes:
+- Quartiles/tertiles are data-driven and not fixed thresholds.
+- Disparity = difference between highest and lowest group means.
+- These results are descriptive (observational) and not causal.

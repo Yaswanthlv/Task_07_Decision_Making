@@ -1,0 +1,54 @@
+===== ROBUSTNESS / SENSITIVITY CHECKS =====
+Rows analyzed: 156
+
+-- Baseline Pearson correlation rank (Score vs. factors) --
+GDP per capita                  0.793883
+Healthy life expectancy         0.779883
+Social support                  0.777058
+Freedom to make life choices    0.566742
+Perceptions of corruption       0.385613
+Generosity                      0.075824
+
+-- After dropping top 3 Score countries --
+Mean Score: 5.363
+Pearson correlation rank:
+GDP per capita                  0.788539
+Healthy life expectancy         0.775808
+Social support                  0.770479
+Freedom to make life choices    0.542888
+Perceptions of corruption       0.309987
+Generosity                      0.062688
+
+-- After dropping top 5 Score countries --
+Mean Score: 5.335
+Pearson correlation rank:
+GDP per capita                  0.784361
+Healthy life expectancy         0.771608
+Social support                  0.765696
+Freedom to make life choices    0.528318
+Perceptions of corruption       0.291380
+Generosity                      0.021310
+
+-- Using min-max normalized Score --
+Mean(Score_norm): 0.520
+GDP per capita                  0.793883
+Healthy life expectancy         0.779883
+Social support                  0.777058
+Freedom to make life choices    0.566742
+Perceptions of corruption       0.385613
+Generosity                      0.075824
+
+-- Spearman correlation rank (rank-based robustness) --
+Social support                  0.816181
+GDP per capita                  0.814483
+Healthy life expectancy         0.807275
+Freedom to make life choices    0.551974
+Perceptions of corruption       0.217348
+Generosity                      0.070483
+
+-- Stability Summary --
+Top factor (baseline Pearson): GDP per capita
+Top factor (drop-3): GDP per capita
+Top factor (drop-5): GDP per capita
+Top factor (Pearson on Score_norm): GDP per capita
+Top factor (Spearman): Social support

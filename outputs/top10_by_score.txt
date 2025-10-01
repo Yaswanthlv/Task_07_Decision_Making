@@ -1,0 +1,11 @@
+Country or region  Score
+          Finland  7.769
+          Denmark  7.600
+           Norway  7.554
+          Iceland  7.494
+      Netherlands  7.488
+      Switzerland  7.480
+           Sweden  7.343
+      New Zealand  7.307
+           Canada  7.278
+          Austria  7.246
